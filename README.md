@@ -100,14 +100,27 @@ we want to center the Hello world using tachyons. Go to hello.js and type
    
    NEXT
    We can add prop or properties within the Hello component. Go to index.js and change 
+   
+   
    ReactDOM.render(<Hello />, document.getElementById('root'));
+   
+   
    TO
+   
+   
    ReactDOM.render(<Hello greeting = {'Hello' + 'React Ninja'} />, document.getElementById('root'));
+   
+   
 Now we have given it a "greeting" prop to  "Hello", we now have access to use props in "Hello.js". so we can edit as follow;
+
 <p>Welcome to React</p>
+
 TO
+
 <p>{this.props.greeting}</p>
+
 AND SAVE
+
 this= this object Hello....has props that is greeting
 Now, you can see the code as function. Lets make it a function to give same result
 
