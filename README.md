@@ -78,16 +78,24 @@ NOTE:
 To start our server, do npm start
 
 APRIL 8TH 2019
+
 Still on robofriends app.
+
 Tachyons works like bootstraps, having predefined templates.
 Fro the dir of robofriends, do
+
 npm install tachyons.
+
 Next go to package.json file to confirm a new version of tachyons was installed.
 NEXT
 In index.js, do
+
 import 'tachyons';
+
 NEXT
-we want to center the Hello world using tachyons. Go to hello.js and type
+we want to center the Hello world using tachyons. 
+Go to hello.js and type
+
 <div class='f1 tc'>
  f1 means Font 1 and tc means TEXT Center
  Now do npm start and Hello World will be centred.
